@@ -3,14 +3,11 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="webdriver.Topic_01_CheckEnvironment">
+      <class name="webdriver.TC_01_GitFlow">
         <methods>
-          <include name="TC_01_ValidateCurrentUrl"/>
-          <include name="TC_03_LoginFormDisplayed"/>
-          <include name="TC_02_ValidatePageTitle"/>
-          <include name="beforeClass"/>
+          <include name="TC_01"/>
         </methods>
-      </class> <!-- webdriver.Topic_01_CheckEnvironment -->
+      </class> <!-- webdriver.TC_01_GitFlow -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

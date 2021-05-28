@@ -16,7 +16,7 @@ public class Topic_01_CheckEnvironment {
 	@BeforeClass
 	public void beforeClass() {
 		  System.setProperty("webdriver.chrome.driver",
-		                     "D:\\Automation Testing\\GoGame\\01- Software\\chromedriver.exe");    
+		                     ".\\Driver\\chromedriver.exe");    
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
